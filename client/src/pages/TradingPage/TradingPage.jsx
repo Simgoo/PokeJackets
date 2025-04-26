@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './tradingpage.css';
+import './TradingPage.css';
 import Navbar from '../../components/Navbar';
 
 const TradingPage = () => {
@@ -444,7 +444,6 @@ const TradingPage = () => {
 
             ]);
 
-
             console.log("Deletion ----___________-------")
             console.log("Sender: " + trade.sender)
             console.log("Sender Card deleted: " + trade.card_id)
@@ -483,8 +482,6 @@ const TradingPage = () => {
             alert("There was an error processing the trade.");
         }
     };
-
-
 
 
 
