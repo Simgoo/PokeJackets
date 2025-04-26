@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = ["https://pokejackets-12.onrender.com", "*"]
-
+PORT = os.environ.get("PORT", 8000)
 
 # Application definition
 
